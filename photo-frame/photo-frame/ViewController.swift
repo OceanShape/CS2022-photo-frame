@@ -1,19 +1,17 @@
-//
-//  ViewController.swift
-//  photo-frame
-//
-//  Created by 허태양 on 2022/05/03.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var firstLabel: UILabel!
+
+    @IBOutlet weak var secondLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.firstLabel.text = "사진액자"
+        self.firstLabel.textAlignment = .center
+        self.secondLabel.text = "액자 설명"
+        self.secondLabel.textAlignment = .center
     }
 
-
 }
-
