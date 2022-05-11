@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5E28A3A282C365D0078F34A /* LemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E28A39282C365D0078F34A /* LemonViewController.swift */; };
+		F5EE42EB282C2B6500F24075 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EE42EA282C2B6500F24075 /* OrangeViewController.swift */; };
 		F5F2965C28214352001491CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2965B28214352001491CB /* AppDelegate.swift */; };
 		F5F2965E28214352001491CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2965D28214352001491CB /* SceneDelegate.swift */; };
 		F5F2966328214352001491CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F2966128214352001491CB /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5E28A39282C365D0078F34A /* LemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonViewController.swift; sourceTree = "<group>"; };
+		F5EE42EA282C2B6500F24075 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 		F5F2965828214352001491CB /* photo-frame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo-frame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F2965B28214352001491CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5F2965D28214352001491CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,10 +106,12 @@
 				F5F2965B28214352001491CB /* AppDelegate.swift */,
 				F5F2965D28214352001491CB /* SceneDelegate.swift */,
 				F5F2968B2821460D001491CB /* ViewController.swift */,
+				F5EE42EA282C2B6500F24075 /* OrangeViewController.swift */,
 				F5F2966128214352001491CB /* Main.storyboard */,
 				F5F2966428214353001491CB /* Assets.xcassets */,
 				F5F2966628214353001491CB /* LaunchScreen.storyboard */,
 				F5F2966928214353001491CB /* Info.plist */,
+				F5E28A39282C365D0078F34A /* LemonViewController.swift */,
 			);
 			path = "photo-frame";
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5EE42EB282C2B6500F24075 /* OrangeViewController.swift in Sources */,
 				F5F2968C2821460D001491CB /* ViewController.swift in Sources */,
 				F5F2965C28214352001491CB /* AppDelegate.swift in Sources */,
+				F5E28A3A282C365D0078F34A /* LemonViewController.swift in Sources */,
 				F5F2965E28214352001491CB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
