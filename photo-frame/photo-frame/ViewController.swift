@@ -19,5 +19,25 @@ class ViewController: UIViewController {
         self.secondLabel.text = "액자 설명"
         self.secondLabel.textAlignment = .center
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("View Controller: viewWillAppear")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("View Controller: viewDidAppear")
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("View Controller: viewWillDisappear")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("View Controller: viewDidDisappear")
+    }
 
 }
