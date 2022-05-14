@@ -22,22 +22,22 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("View Controller: viewWillAppear")
+        print("viewWillAppear\t\tView Controller")
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("View Controller: viewDidAppear")
+        print("viewDidAppear\t\tView Controller")
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        print("View Controller: viewWillDisappear")
+        print("viewWillDisappear\tView Controller")
     }
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        print("View Controller: viewDidDisappear")
+        print("viewDidDisappear\tView Controller")
     }
 
 }
