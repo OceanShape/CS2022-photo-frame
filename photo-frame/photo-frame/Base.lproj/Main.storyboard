@@ -36,6 +36,20 @@
                                 <rect key="frame" x="87" y="166" width="240" height="240"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="photoframe-border.png" translatesAutoresizingMaskIntoConstraints="NO" id="P6H-JR-Ywc" userLabel="PhotoFrame">
+                                <rect key="frame" x="67" y="146" width="280" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L09-Iv-oNn">
+                                <rect key="frame" x="152" y="576" width="111" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="선택"/>
+                                <connections>
+                                    <action selector="pickImage" destination="qIM-6h-aMx" eventType="touchUpInside" id="Xii-UQ-c7G"/>
+                                    <action selector="selectButtonTouched:" destination="qIM-6h-aMx" eventType="touchUpInside" id="s58-4E-bfq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ccH-SG-U16"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -208,6 +222,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="photoframe-border.png" width="720" height="720"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

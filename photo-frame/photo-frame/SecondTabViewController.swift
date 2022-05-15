@@ -3,6 +3,12 @@ import UIKit
 class SecondTabViewController: UIViewController {
     
     @IBOutlet weak var photoImageView: UIImageView!
+    
+    let imagePicker = UIImagePickerController()
+    
+    @IBAction func pickImage() {
+        self.present(self.imagePicker, animated: true)
+    }
 
     @IBAction func nextImageButtonTouched(_ sender: Any) {
         let imageIndex: Int = Int.random(in: 1...22)
@@ -17,9 +23,15 @@ class SecondTabViewController: UIViewController {
 
         self.photoImageView.image = UIImage(named: imageIndexString)
     }
+
+    @IBAction func selectButtonTouched(_ sender: Any) {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.imagePicker.sourceType = .photoLibrary
+        self.imagePicker.delegate = self
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -42,4 +54,12 @@ class SecondTabViewController: UIViewController {
         print("viewDidDisappear\tSecond View Controller")
     }
     
+}
+
+extension SecondTabViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        let image: UIImage? = info[UIImagePickerController.InfoKey.originalImage] as? UIImage
+        self.photoImageView.image = image
+        picker.dismiss(animated: true)
+    }
 }

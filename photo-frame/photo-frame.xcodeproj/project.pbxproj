@@ -32,6 +32,7 @@
 		F5F137A12830D73F0018EAE6 /* 08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F1378B2830D73F0018EAE6 /* 08.jpg */; };
 		F5F137A22830D73F0018EAE6 /* 09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F1378C2830D73F0018EAE6 /* 09.jpg */; };
 		F5F137A42830DC900018EAE6 /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F137A32830DC900018EAE6 /* SecondTabViewController.swift */; };
+		F5F137A62830E4EC0018EAE6 /* photoframe-border.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F137A52830E4EC0018EAE6 /* photoframe-border.png */; };
 		F5F2965C28214352001491CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2965B28214352001491CB /* AppDelegate.swift */; };
 		F5F2965E28214352001491CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2965D28214352001491CB /* SceneDelegate.swift */; };
 		F5F2966328214352001491CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F2966128214352001491CB /* Main.storyboard */; };
@@ -86,6 +87,7 @@
 		F5F1378B2830D73F0018EAE6 /* 08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 08.jpg; sourceTree = SOURCE_ROOT; };
 		F5F1378C2830D73F0018EAE6 /* 09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 09.jpg; sourceTree = SOURCE_ROOT; };
 		F5F137A32830DC900018EAE6 /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
+		F5F137A52830E4EC0018EAE6 /* photoframe-border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photoframe-border.png"; sourceTree = "<group>"; };
 		F5F2965828214352001491CB /* photo-frame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo-frame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F2965B28214352001491CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5F2965D28214352001491CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		F5F137762830D7260018EAE6 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F5F137A52830E4EC0018EAE6 /* photoframe-border.png */,
 				F5F137892830D73F0018EAE6 /* 01.jpg */,
 				F5F137882830D73F0018EAE6 /* 02.jpg */,
 				F5F137852830D73F0018EAE6 /* 03.jpg */,
@@ -334,6 +337,7 @@
 				F5F2966528214353001491CB /* Assets.xcassets in Resources */,
 				F5F1378F2830D73F0018EAE6 /* 22.jpg in Resources */,
 				F5F137902830D73F0018EAE6 /* 04.jpg in Resources */,
+				F5F137A62830E4EC0018EAE6 /* photoframe-border.png in Resources */,
 				F5F1379D2830D73F0018EAE6 /* 15.jpg in Resources */,
 				F5F2966328214352001491CB /* Main.storyboard in Resources */,
 				F5F1379C2830D73F0018EAE6 /* 16.jpg in Resources */,
