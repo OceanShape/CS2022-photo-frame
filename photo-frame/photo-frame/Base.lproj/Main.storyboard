@@ -11,18 +11,43 @@
         <!--Item 2-->
         <scene sceneID="Qgl-rs-2jT">
             <objects>
-                <viewController storyboardIdentifier="Second Scene" id="qIM-6h-aMx" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Second Scene" id="qIM-6h-aMx" customClass="SecondTabViewController" customModule="photo_frame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Nl-W0-TDa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Photo Album" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2VZ-zY-bmX">
+                                <rect key="frame" x="44" y="456" width="326" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEb-7x-wra">
+                                <rect key="frame" x="165" y="519" width="85" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="다음"/>
+                                <connections>
+                                    <action selector="nextImageButtonTouched:" destination="qIM-6h-aMx" eventType="touchUpInside" id="LKf-NZ-0so"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y5M-rr-jYI">
+                                <rect key="frame" x="87" y="166" width="240" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ccH-SG-U16"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="Lx4-4Y-c8a"/>
+                    <connections>
+                        <outlet property="photoImageView" destination="y5M-rr-jYI" id="cD3-ly-kuG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VdX-KT-iEh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="938" y="453"/>
+            <point key="canvasLocation" x="937.68115942028987" y="452.67857142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ecl-Ke-7ae">
@@ -52,7 +77,6 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="다음"/>
                                 <connections>
-                                    <action selector="nextButtonTouched:" destination="nUZ-7U-teA" eventType="touchUpInside" id="a0c-cM-59s"/>
                                     <segue destination="TaT-iU-4Gq" kind="show" id="Y3L-qE-UlD"/>
                                 </connections>
                             </button>

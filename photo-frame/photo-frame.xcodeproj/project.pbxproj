@@ -31,6 +31,7 @@
 		F5F137A02830D73F0018EAE6 /* 17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F1378A2830D73F0018EAE6 /* 17.jpg */; };
 		F5F137A12830D73F0018EAE6 /* 08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F1378B2830D73F0018EAE6 /* 08.jpg */; };
 		F5F137A22830D73F0018EAE6 /* 09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F1378C2830D73F0018EAE6 /* 09.jpg */; };
+		F5F137A42830DC900018EAE6 /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F137A32830DC900018EAE6 /* SecondTabViewController.swift */; };
 		F5F2965C28214352001491CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2965B28214352001491CB /* AppDelegate.swift */; };
 		F5F2965E28214352001491CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2965D28214352001491CB /* SceneDelegate.swift */; };
 		F5F2966328214352001491CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F2966128214352001491CB /* Main.storyboard */; };
@@ -84,6 +85,7 @@
 		F5F1378A2830D73F0018EAE6 /* 17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 17.jpg; sourceTree = SOURCE_ROOT; };
 		F5F1378B2830D73F0018EAE6 /* 08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 08.jpg; sourceTree = SOURCE_ROOT; };
 		F5F1378C2830D73F0018EAE6 /* 09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 09.jpg; sourceTree = SOURCE_ROOT; };
+		F5F137A32830DC900018EAE6 /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
 		F5F2965828214352001491CB /* photo-frame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo-frame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F2965B28214352001491CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5F2965D28214352001491CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				F5F2966628214353001491CB /* LaunchScreen.storyboard */,
 				F5F2966928214353001491CB /* Info.plist */,
 				F5E28A39282C365D0078F34A /* LemonViewController.swift */,
+				F5F137A32830DC900018EAE6 /* SecondTabViewController.swift */,
 			);
 			path = "photo-frame";
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F137A42830DC900018EAE6 /* SecondTabViewController.swift in Sources */,
 				F5EE42EB282C2B6500F24075 /* OrangeViewController.swift in Sources */,
 				F5F2968C2821460D001491CB /* ViewController.swift in Sources */,
 				F5F2965C28214352001491CB /* AppDelegate.swift in Sources */,
